@@ -1,7 +1,7 @@
 
 // Pins
-#define MAX485_DE         D2  // data or
-#define MAX485_RE         D1  // recv enable
+#define MAX485_DE          4  // data or
+#define MAX485_RE          5  // recv enable
 
 // ModBus Register Locations
 #define LIVE_DATA       0x3100     // start of live-data 
